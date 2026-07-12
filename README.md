@@ -1,16 +1,94 @@
-# React + Vite
+# React Tailwind Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Admin Dashboard built with **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+> 🚧 **Project Status:** This project is currently under active development. New features and improvements are being added regularly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Modern and responsive dashboard layout
+- Dashboard overview page
+- Products management page
+- Reusable UI components
+- Sidebar navigation
+- Responsive design
+- Mock data integration
+- Clean and scalable project structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+More features will be added as development continues.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- JavaScript (ES6+)
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/
+├── components/
+├── context/
+├── data/
+├── hooks/
+├── layouts/
+├── pages/
+├── services/
+├── utils/
+└── App.jsx
+```
+
+> The folder structure may evolve as new features are added.
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/faiqyaseen/react-tailwind-dashboard.git
+```
+
+### Navigate to the project
+
+```bash
+cd react-tailwind-dashboard
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+## 📌 Roadmap
+
+Upcoming features include:
+
+- Authentication
+- Product CRUD
+- Orders Management
+- Customers Module
+- Analytics Dashboard
+- API Integration
+- Pagination
+- Search & Filtering
+- Dark Mode
+- Form Validation
+- Toast Notifications
+- Charts & Reports
+- Settings Module
+
+---
+
+Built with ❤️ using React and Tailwind CSS.
